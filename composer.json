@@ -1,0 +1,31 @@
+{
+    "name": "wqedu/wqedu-biz-quiz",
+    "description": "quiz module",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "fornote",
+            "email": "fornotec@gmail.com"
+        }
+    ],
+    "autoload": {
+        "psr-4": {
+            "Biz\\Course\\": "src/Quiz/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": { "Tests\\": "tests/" }
+    },
+    "require": {
+        "codeages/biz-framework": "^0.9",
+        "wqedu/wqedu-biz-base": "~0.1.0"
+    },
+    "require-dev": {
+        "mockery/mockery": "^0.9.9",
+        "sebastian/version": "^2.0.1",
+        "phpunit/phpunit": "^7.1.0",
+        "phpunit/php-invoker": "^2.0",
+        "phpunit/dbunit": "^4.0"
+    }
+}
