@@ -11,7 +11,7 @@
     ],
     "autoload": {
         "psr-4": {
-            "Biz\\Course\\": "src/Quiz/"
+            "Biz\\Quiz\\": "src/Quiz/"
         }
     },
     "autoload-dev": {
@@ -26,6 +26,13 @@
         "sebastian/version": "^2.0.1",
         "phpunit/phpunit": "^7.1.0",
         "phpunit/php-invoker": "^2.0",
-        "phpunit/dbunit": "^4.0"
+        "phpunit/dbunit": "^4.0",
+        "ramsey/uuid-console": "^1.1"
+    },
+    "repositories": {
+        "packagist": {
+            "type": "composer",
+            "url": "https://packagist.phpcomposer.com"
+        }
     }
 }

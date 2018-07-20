@@ -14,7 +14,7 @@
     bootstrap                   = "tests/bootstrap.php" >
 
     <php>
-        <env name="DB_NAME" value="wqedu_biz_course_test"/>
+        <env name="DB_NAME" value="test_db_name"/>
         <env name="DB_HOST" value="127.0.0.1"/>
         <env name="DB_USER" value="root"/>
         <env name="DB_PORT" value="3306"/>
